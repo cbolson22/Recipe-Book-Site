@@ -1,0 +1,5 @@
+# VSCode & system files
+.vscode/
+
+# Gemini context files
+GEMINI.md
