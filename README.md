@@ -6,6 +6,8 @@ This is a simple frontend project to display a collection of recipes.
 
 The project dynamically loads recipes from a JavaScript file (`recipes.js`) and displays them as cards on a webpage. It's built with plain HTML, CSS, and JavaScript.
 
+Recipes are rendered as collapsible headers (accordion) via `script.js`; the layout is a single stacked column and `style.css` includes a subtle gradient background.
+
 ## Getting Started
 
 To view the site, simply open the `index.html` file in your web browser. There is no build process or server required.

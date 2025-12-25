@@ -1,7 +1,10 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #f4f4f9;
+  /* Gradient background */
+  background: linear-gradient(135deg, #e5ebf5 0%, #cfc5ec 45%, #b7e1b0 100%);
+  background-attachment: fixed;
+  background-size: cover;
   margin: 0;
   padding: 20px;
   color: #333;
@@ -13,11 +16,11 @@ h1 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 16px;
 }
 
 .recipe-card {
@@ -29,10 +32,40 @@ h1 {
   flex-direction: column;
 }
 
-.recipe-card h2 {
-  font-size: 1.5em;
-  margin-top: 0;
+/* Accordion header styles */
+.recipe-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 12px;
+}
+.recipe-header h2 {
+  font-size: 1.1rem;
+  margin: 0;
   color: #2c3e50;
+}
+.recipe-header .arrow {
+  display: inline-block;
+  transition: transform 240ms ease;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+.recipe-header.open .arrow {
+  transform: rotate(90deg);
+}
+/* Header right-side layout */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.servings {
+  font-size: 0.85rem;
+  color: #6c757d;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 4px 8px;
+  border-radius: 12px;
 }
 
 .recipe-card .notes {
@@ -40,6 +73,20 @@ h1 {
   color: #7f8c8d;
   margin-top: -10px;
   margin-bottom: 10px;
+}
+
+/* Collapsible body */
+.recipe-body {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 320ms ease, padding 240ms ease;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.recipe-body.open {
+  max-height: 2000px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .recipe-content {
