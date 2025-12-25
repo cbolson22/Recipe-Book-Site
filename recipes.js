@@ -2,6 +2,7 @@ const recipes = [
   {
     name: "Creamy Butter Mashed Potatoes",
     servings: "4 SERVINGS",
+    image: "images/mashed_potatoes_and_red_wine_sauce.jpeg",
     ingredients: [
       "2 1/2 pounds Yukon Gold Potatoes (or Organic Yellow Potatoes for substitute)",
       "1 1/2 cups unsalted butter",
@@ -24,6 +25,7 @@ const recipes = [
     name: "Red Wine Reduction Sauce (Bordelaise)",
     servings: "",
     notes: "MORE NEXT TIME (LITTLE BIT FOR 4 PEOPLE)",
+    image: "images/mashed_potatoes_and_red_wine_sauce.jpeg",
     ingredients: [
       "2 tbsp unsalted butter",
       "2 large shallots",
@@ -44,6 +46,7 @@ const recipes = [
   {
     name: "Bolognese Sauce Pasta",
     servings: "4 SERVINGS",
+    image: "images/bolognese.jpeg",
     ingredients: [
       "Mirpouix (I typically go 1.5x onion to /1/1 carrot/celery)",
       "1lb pasta",
@@ -82,6 +85,7 @@ const recipes = [
   {
     name: "Garlic Bread",
     servings: "4 SERVINGS",
+    image: "images/garlic_bread.jpeg",
     ingredients: [
       "Baguette",
       "4 tbsp unsalted butter",
@@ -100,6 +104,7 @@ const recipes = [
   {
     name: "Chicken Pot Pie",
     servings: "",
+    image: "images/chicken_pot_pie.jpeg",
     ingredients: [
       "1 pack boneless, skinless chicken breast “strips”",
       "1 can cream of celery soup",
