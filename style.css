@@ -118,6 +118,26 @@ li {
   line-height: 1.6;
 }
 
+/* Tab styling */
+.tabs {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tab-button {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #333;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+.tab-button.active {
+  border-bottom: 2px solid #34495e;
+  font-weight: bold;
+}
+
 /* Recipe image styling */
 .image-wrapper {
   width: 100%;
