@@ -144,6 +144,7 @@ const recipes = [
       "Trim the green beans and toss them in 1 tbsp neutral oil, 1/2 tbsp sesame oil, 1/2 tsp garlic powder, and some salt",
       "Start the green beans in the oven (they will roast for 20-25 minutes)",
       "Cut the chicken thighs into bite-sized pieces and toss with 2 tbsp all purpose flour, 1/2 tsp garlic powder, and some salt",
+      "Place the chicken pieces on the sheet pan and bake for 13-15 minutes (or until lightly golden)",
       "Let rice rest for 5-10 minutes and then fluff it",
       "Mix 3 tbsp soy sauce, 1 tbsp sesame seeds, 1/2 tbsp sesame oil, 1/4 cup honey, and 1 tsp garlic powder in a new bowl (taste for salt and sweet)",
       "Toss the cooked chicken in that bowl and continue baking for another 5-7 minutes",
